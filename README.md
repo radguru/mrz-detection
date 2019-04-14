@@ -9,7 +9,7 @@
 Use it:
 `const MRZ = require('mrz-detection')`
 
-Remember: the object passed to getMrz need to be an [Image-js](https://www.npmjs.com/package/image-js) istance.
+Remember: the object passed to `getMrz()` need to be an [Image-js](https://www.npmjs.com/package/image-js) istance.
 
 ## Run scripts
 
