@@ -18,6 +18,13 @@ const {
 const rectKernel = getRectKernel(9, 5);
 const sqKernel = getRectKernel(19, 19);
 
+
+/**
+ * Return croped image
+ * 
+ * @param {Image-js} image -- Image-js object  
+ * @param {Object} options -- 
+ */
 function getMrz(image, options) {
   try {
     return internalGetMrz(image, options);
