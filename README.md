@@ -5,6 +5,11 @@
 The best way to test the run scripts is to create a `data` directory in the root of this repo and put
 the images in sub-directories of `data`.
 
+### Install
+
+Install the needed packages with:
+`npm install`
+
 ### getMrz
 
 `node run/getMrz.js --dir data/imageDir`
