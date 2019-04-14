@@ -1,5 +1,16 @@
 # mrz-detection
 
+## USE in Node.js
+
+### Install the package
+
+`npm install mrz-detection`
+
+Use it:
+`const MRZ = require('mrz-detection')`
+
+Remember: the object passed to getMrz need to be an [Image-js](https://www.npmjs.com/package/image-js) istance.
+
 ## Run scripts
 
 The best way to test the run scripts is to create a `data` directory in the root of this repo and put
